@@ -10,13 +10,13 @@ O <strong>Pasta de Estudos</strong> é um repositório criado para centralizar m
 
 ### 📚 Sumário
 
-* Construção
+* [Lógica de programação](#-lógica)
 
 ---
 
 ### 🛠 Tecnologias Estudadas no Repositório
 
-* Construção
+* Lógica de programação
 
 ---
 
@@ -27,6 +27,11 @@ Este repositório foi desenvolvido para servir como uma biblioteca pessoal de es
 Além de auxiliar na revisão de conteúdos, o projeto também funciona como um histórico da minha evolução acadêmica e profissional.
 
 ---
+## 📁 Lógica de Programação
+
+Conteúdos, exercícios, projetos e anotações relacionados ao desenvolvimento do raciocínio lógico e à construção de soluções computacionais utilizando lógica de programação.
+
+* [Conceitos](./LogicaDeProgramacao/logicaDeProgramacao.md)
 
 ## 📁 HTML
 
@@ -64,8 +69,7 @@ Materiais de apoio, fichamentos, resumos e anotações de cursos, aulas e estudo
 
 ### 👤 Autor
 
-**Diego Felipe Weber**
-🔗 LinkedIn: https://www.linkedin.com/in/diego-weber-474a5aa6/
+[Diego Felipe Weber](https://www.linkedin.com/in/diego-weber-474a5aa6/)
 
 ---
 
