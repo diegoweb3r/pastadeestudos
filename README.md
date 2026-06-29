@@ -10,7 +10,8 @@ O <strong>Pasta de Estudos</strong> é um repositório criado para centralizar m
 
 ### 📚 Sumário
 
-* [Lógica de programação](#-lógica)
+* [Lógica de programação](#-lógica-de-programação)
+* [Banco de dados](#-banco-de-dados)
 
 ---
 
@@ -49,7 +50,7 @@ Exercícios, desafios, conceitos fundamentais e projetos utilizando JavaScript.
 
 Anotações, componentes, exercícios e aplicações desenvolvidas com React.
 
-## 📁 SQL
+## 📁 Banco de Dados
 
 Resumos, comandos, consultas e exercícios para estudo de banco de dados relacionais.
 
