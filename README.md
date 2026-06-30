@@ -10,14 +10,20 @@ O <strong>Pasta de Estudos</strong> é um repositório criado para centralizar m
 
 ### 📚 Sumário
 
-* [Lógica de programação](#-lógica-de-programação)
-* [Banco de dados](#-banco-de-dados)
-
----
-
-### 🛠 Tecnologias Estudadas no Repositório
-
-* Lógica de programação
+- [📁 Lógica de Programação](#-lógica-de-programação)
+- [📁 HTML](#-html)
+- [📁 CSS](#-css)
+- [📁 Desenvolvimento de Software](#-desenvolvimento-de-software)
+- [📁 Banco de Dados](#-banco-de-dados)
+- [📁 Análise de Dados](#-análise-de-dados)
+- [📁 Inteligência Artifical](#-inteligência-artifical)
+- [📁 Engenharia de Software](#-engenharia-de-software)
+- [📁 Git e GitHub](#-git-e-github)
+- [📁 Ingles](#-ingles)
+- [📁 Projetos Práticos](#-projetos-práticos)
+- [📁 Resumos e Anotações](#-resumos-e-anotações)
+  - [👤 Autor](#-autor)
+  - [🗣️ Observações](#️-observações)
 
 ---
 
@@ -30,41 +36,72 @@ Além de auxiliar na revisão de conteúdos, o projeto também funciona como um 
 ---
 ## 📁 Lógica de Programação
 
-Conteúdos, exercícios, projetos e anotações relacionados ao desenvolvimento do raciocínio lógico e à construção de soluções computacionais utilizando lógica de programação.
+Conteúdos, exercícios, algoritmos, fluxogramas, estruturas de controle e anotações voltados ao desenvolvimento do raciocínio lógico e à resolução de problemas computacionais.
 
-* [Conceitos](./LogicaDeProgramacao/logicaDeProgramacao.md)
+* [Conceitos](/LogicaDeProgramacao/logicaDeProgramacao.md)
+* [Exercicios práticos em JavaScript](https://github.com/diegoweb3r/ExerciciosJS)
 
 ## 📁 HTML
 
-Conteúdos, exercícios, projetos e anotações relacionados à estruturação de páginas web utilizando HTML5.
+Conteúdos sobre a estruturação de páginas web com HTML5, incluindo elementos semânticos, formulários, acessibilidade, boas práticas e exercícios.
 
 ## 📁 CSS
 
-Materiais sobre estilização, responsividade, Flexbox, Grid Layout e boas práticas de CSS.
+Materiais sobre estilização de interfaces, responsividade, Flexbox, Grid Layout, animações, organização de estilos e boas práticas de CSS.
 
-## 📁 JavaScript
+## 📁 Desenvolvimento de Software
 
-Exercícios, desafios, conceitos fundamentais e projetos utilizando JavaScript.
-
-## 📁 React
-
-Anotações, componentes, exercícios e aplicações desenvolvidas com React.
+Exercícios, desafios, projetos e anotações sobre sintaxe, estruturas de dados, orientação a objetos, boas práticas e recursos específicos de diferentes linguagens de programação.
 
 ## 📁 Banco de Dados
 
-Resumos, comandos, consultas e exercícios para estudo de banco de dados relacionais.
+Materiais sobre modelagem de dados, SQL, normalização, consultas, manipulação de dados e conceitos fundamentais de bancos de dados relacionais.
+
+* [Introdução a Banco de Dados](/BancoDeDados/bancoDeDados.md)
+
+## 📁 Análise de Dados
+
+Conteúdos relacionados à estatística, preparação, transformação, visualização e interpretação de dados para apoio à tomada de decisões.
+
+* [Estatistica aplicada a Análise de dados](/AnaliseDeDados/estatisticaAplicadaAAnaliseDeDados.md)
+* [Preparação de dados](/AnaliseDeDados/preparaçãoDeDados.md)
+* [Engenharia e Preparação e visualização de dados](/AnaliseDeDados/engenhariaPreparaçãoEVisualizacaoDeDados.md)
+  
+## 📁 Inteligência Artifical
+
+Materiais sobre fundamentos de Inteligência Artificial, engenharia de prompts, aplicações práticas, aprendizado de máquina e o uso de IA no desenvolvimento de software.
+
+* [Inteligência Artificial e Sociedade](/InteligenciaArtificial/iaESociedade.md)
+* [Potencializando estudos com IA](/InteligenciaArtificial/potencialiazndoEstudosComIA.md)
+
+## 📁 Engenharia de Software
+
+Conteúdos sobre metodologias de desenvolvimento, requisitos, arquitetura, modelagem, testes, documentação e boas práticas de Engenharia de Software.
+
+* [Modelos, metodos e tecnicas de engenharia de Software](/EngenhariaDeSoftware/modelosMetodoseTecnicasDeEngenharia.md)
+* [Diagrama de Classes](/EngenhariaDeSoftware/diagramaDeClasses.md)
+* [Modelos de casos de uso](/EngenhariaDeSoftware/modeloDeCasodeUso.md)
+* [Requisitos](/EngenhariaDeSoftware/requisitos.md)
 
 ## 📁 Git e GitHub
 
-Comandos, fluxos de trabalho, versionamento e colaboração utilizando Git e GitHub.
+Guias, comandos e fluxos de trabalho utilizando Git e GitHub para versionamento de código, colaboração em equipe e gerenciamento de projetos.
+
+## 📁 Ingles
+
+Estudos de inglês por meio de músicas, notícias, podcasts, textos e vocabulário voltados ao desenvolvimento da leitura, escrita e compreensão auditiva.
+
+* [Musica #01 - Man In The Mirror](/Ingles/Music#01(ManInTheMirror).md)
+* [Noticia #01 - Nepal Protest](/Ingles/News#01(NepalProtest).md)
+* [Podcast #01 - How to Debate](/Ingles/Podcast#01(HowToDebate).md)
 
 ## 📁 Projetos Práticos
 
-Projetos desenvolvidos durante os estudos para aplicação dos conhecimentos adquiridos.
+Projetos desenvolvidos para aplicar, consolidar e demonstrar os conhecimentos adquiridos ao longo dos estudos.
 
 ## 📁 Resumos e Anotações
 
-Materiais de apoio, fichamentos, resumos e anotações de cursos, aulas e estudos independentes.
+Resumos, fichamentos e anotações gerais produzidos durante cursos, aulas, leituras e estudos independentes.
 
 ---
 
