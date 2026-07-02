@@ -22,8 +22,8 @@ O <strong>Pasta de Estudos</strong> é um repositório criado para centralizar m
 - [📁 Ingles](#-ingles)
 - [📁 Projetos Práticos](#-projetos-práticos)
 - [📁 Resumos e Anotações](#-resumos-e-anotações)
-  - [👤 Autor](#-autor)
-  - [🗣️ Observações](#️-observações)
+- [👤 Autor](#-autor)
+- [🗣️ Observações](#️-observações)
 
 ---
 
@@ -52,6 +52,8 @@ Materiais sobre estilização de interfaces, responsividade, Flexbox, Grid Layou
 ## 📁 Desenvolvimento de Software
 
 Exercícios, desafios, projetos e anotações sobre sintaxe, estruturas de dados, orientação a objetos, boas práticas e recursos específicos de diferentes linguagens de programação.
+
+* [Conceitos básicos de React](/DesenvolvimentoDeSoftware/conceitosBasicosEmReact.md)
 
 ## 📁 Banco de Dados
 
@@ -105,13 +107,13 @@ Resumos, fichamentos e anotações gerais produzidos durante cursos, aulas, leit
 
 ---
 
-### 👤 Autor
+## 👤 Autor
 
 [Diego Felipe Weber](https://www.linkedin.com/in/diego-weber-474a5aa6/)
 
 ---
 
-### 🗣️ Observações
+## 🗣️ Observações
 
 <p align="justify">
 Os materiais presentes neste repositório são organizados conforme minha evolução nos estudos e podem ser atualizados constantemente. O objetivo é manter uma base de conhecimento prática, acessível e útil para consultas futuras.
