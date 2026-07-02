@@ -1,6 +1,6 @@
-# 🧑‍💻 Banco de Dadoos
+# 🧑‍💻 Banco de Dados
 <p align="justify">
-Bacno de dados é um sistema organizado para armazenar, gerenciar e recuperar informações de forma eficiente e segura. Essencial em praticamente todos o s sitemas modernos.
+Banco de dados é um sistema organizado para armazenar, gerenciar e recuperar informações de forma eficiente e segura. Essencial em praticamente todos o s sitemas modernos.
 </p>
 
 ---
@@ -46,7 +46,10 @@ Não usa tabelas fixas Os dados podem ser armazenados de maneira mais flecivel, 
 
 ## O que é SQL
 <p align="justify">
-SQL ou Structured Query Language é a linguagem usada para interagir com banco de dados relacionais. Os principais comandos:
+SQL ou Structured Query Language é a linguagem usada para interagir com banco de dados relacionais. As sintaxes que compõem o SQL possuem subdivisões:
+
+### Data Manipulation Language (DML)
+Comandos de alteração de dados da tabela, podendo ser a inserção ou exclusão de dados:
 
   * SELECT: buscar dados
     ~~~
@@ -97,6 +100,50 @@ Comando utilizados para a definição da estrutura do bando de dados em si, como
 * DROP TABLE: exclui tabela
     ~~~
     DROP TABLE clientes;
+    ~~~    
+</p>
+
+### Data Control Language (DCL)
+<p align="justify">
+Atua na restrição, premissão e bloqueios do banco de dados.
+
+* GRANT: concede permissão a usuários
+  ~~~
+  GRANT SELECT, INSERT, UPDATE
+    ON clientes
+    to joao;
     ~~~
-    
+* REVOKE: remove permissões
+    ~~~
+    REVOKE SELECT, INSERT, UPDATE 
+    ON clientes
+    to joao;
+    ~~~ 
     </p>
+
+    ### Data Transition Language (DTL)
+<p align="justify">
+Responsável por registrar e salvar alterações realizadas por usurários
+
+* COMMIT: confirma definitivamente as alterações realizadas
+  ~~~
+  COMMIT;
+    ~~~
+* ROLLBACK: desfaz as alterações desde o ultimo commit
+    ~~~
+    ROLLBACK;
+    ~~~ 
+* SAVEBACK: cria um ponto de restauração dentro da transação
+    ~~~
+    SAVEBACK nome_do_arquivo;
+    ~~~ 
+</p>
+
+### SQL e seus componentes
+<p align="justify">
+<ul>
+<li>Database Engine: O serviço principal de um banco de dados, possuindo varias features;</li>
+<li>Analysis Services: Processamento analitico, cruzamento de dados geração de relatorios. Muito usado em BI</li>
+<li>Reporting service: Desenvolvimento de relatórios e geração de gráficos</li>
+<li>Integration Service: Tarefas de ETL, integração, importação e exportação de dados</li>
+</p>
