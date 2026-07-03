@@ -28,7 +28,7 @@ Um navegador moderno não entendo a sintaxe moderna do React nativamente, não e
 <p align="justify">
 Para iniciar um projeto React, você não configura compiladores e empacotadores manualmente, usa-se uma ferramenta de Scaffolding e as duas mais conhecidas são:
 <ul>
-    <li><strong>Create React App (CRA)</strong>: Desenvolvido pela própria Meta, foi padrao de muitos anos. Utiliza internamente o Babel para compilar e Webpack para empacotar, mas, ele compila e empacota toda a aplicação antes de iniciar o servidor de desenvolvimento. À medida que o projeto cresce, o tempo de inicialização e de atualização de tela se torna lento. Foi descontinuado oficialmente.</li>
+    <li><strong>Create React App (CRA)</strong>: Desenvolvido pela própria Meta, foi padrão de muitos anos. Utiliza internamente o Babel para compilar e Webpack para empacotar, mas, ele compila e empacota toda a aplicação antes de iniciar o servidor de desenvolvimento. À medida que o projeto cresce, o tempo de inicialização e de atualização de tela se torna lento. Foi descontinuado oficialmente.</li>
     <li><strong>Vite</strong>: Ferramenta mais moderna e padrão da indústria atual. Criado por Evan You, o Vite revolucionou o desenvolvimento por ser rápido. O Vite usa Native ESM (módulos nativos do navegador). Ele faz com que o próprio navegador requisite os arquivos sob demanda. Também usa Esbuild para pré-empacotar dependências, sendo até 100 vezes mais rápidos.</li>
 </ul>
 </p>
@@ -83,6 +83,40 @@ No desenvolvimento web, frequentemente precisamos transformar estruturas de dado
 ```
 
 <ul>
-    <li><strong>A importância da propriedade Key</strong>: Sempre que renderizamos uma lista, o React exige uma propriedade especial chamada key no elemento raiz retornado. Essa chave deve ser um identificador único e estável (como um ID). O React usa essa Key durante o processo de reconciliação (Virtual DOM) para rastrear quais itens foram adicionados, alteradois ou removidos. Sem a Key, o react precisaria renderizar novamente a lista inteira do zero, a cada pequena modificação, destruindo sua performance.</li>
+    <li><strong>A importância da propriedade Key</strong>: Sempre que renderizamos uma lista, o React exige uma propriedade especial chamada key no elemento raiz retornado. Essa chave deve ser um identificador único e estável (como um ID). O React usa essa Key durante o processo de reconciliação (Virtual DOM) para rastrear quais itens foram adicionados, alterados ou removidos. Sem a Key, o react precisaria renderizar novamente a lista inteira do zero, a cada pequena modificação, destruindo sua performance.</li>
 </ul>
+</p>
+
+## Fluxo de dados
+### Propriedades (Props) em React
+<p align="justify">
+Os componentes precisam se comunicar. O React adota um modelo de fluxo Unidirecional (de cima pra baixo). Os componentes pais comunicam-se com os componentes filhos enviando dados através de Props (propriedades). Funcionam exatamente como argumentos de uma função ou atributos de uma tag HTML.
+
+```
+// O componente filho recebe as propriedades dentro do objeto 'props'
+function Saudacao(props) {
+  return <h1>Olá, {props.nome}!</h1>;
+}
+
+// O componente pai define e envia o dado
+function App() {
+  return <Saudacao nome="Diego" />;
+}
+```
+
+<ul>
+    <li><strong>Imutabilidade de Props</strong>: Uma regra inflexível da arquitetura do React é que as props são somente para leitura. Um componente filho jamais deve tentar modificar as propriedades que recebeu. Se os dados precisam mudar, o controle da mudança deve pertencer ao componente pai, que detém o estado daqueles dados. </li>
+</ul>
+</p>
+
+### Funções puras e componentes no React
+<p align="justify">
+O React é fortemente influenciado pelo paradigma da Programação Funcional. Um dos conceitos mais importantes desse paradigma é o de Função Pura.
+
+<ul>
+    <li><strong>Mesma entrada, mesma saída</strong>: Se chamar a função 10 vezes com argumento 2, ela deve retornar o mesmo resultado 10 vezes.</li>
+    <li><strong>Sem efeitos colaterais (Side Effects)</strong>: A função deve alterar nada no mundo externo. Não deve modificar variáveis globais, alterar HTML diretamente ou realizar requisições no meio de seu escopo principal.</li>
+</ul>
+
+No React, todos os componentes devem se comportar como funções puras em relação ás suas props. Dadas as mesmas propriedades de entrada, o componente deve retornar o mesmo JSA. Se um componente causasse mutações imprevisíveis durante sua renderização, o algoritmo de diferenciação do Virtual DOM quebraria, gerando inconsistências visuais na tela e bugs difíceis de rastrear.
 </p>
