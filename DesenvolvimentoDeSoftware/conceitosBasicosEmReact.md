@@ -120,3 +120,25 @@ O React é fortemente influenciado pelo paradigma da Programação Funcional. Um
 
 No React, todos os componentes devem se comportar como funções puras em relação ás suas props. Dadas as mesmas propriedades de entrada, o componente deve retornar o mesmo JSA. Se um componente causasse mutações imprevisíveis durante sua renderização, o algoritmo de diferenciação do Virtual DOM quebraria, gerando inconsistências visuais na tela e bugs difíceis de rastrear.
 </p>
+
+
+## Interatividade e Variabilidade
+### Manipulação de eventos
+<p align="justify">
+Para capturar ações de usuário, o React fornece um sistema próprio de manipulação que funciona de maneira declarativa, diretamente no JSX. No React usa-se CamelCase (onClick) e passa-se a referencia da própria função entre chaves.
+
+```
+function Painel() {
+  function lidarComClique() {
+    alert('Botão acionado!');
+  }
+
+  return (
+    <button onClick={lidarComClique}>
+      Clique Aqui
+    </button>
+  );
+}
+
+```
+</p>
