@@ -20,6 +20,7 @@ O <strong>Pasta de Estudos</strong> é um repositório criado para centralizar m
 - [📁 Engenharia de Software](#-engenharia-de-software)
 - [📁 Git e GitHub](#-git-e-github)
 - [📁 Ingles](#-ingles)
+- [📁 Livros](#-livros)
 - [📁 Projetos Práticos](#-projetos-práticos)
 - [📁 Resumos e Anotações](#-resumos-e-anotações)
 - [👤 Autor](#-autor)
@@ -96,6 +97,11 @@ Estudos de inglês por meio de músicas, notícias, podcasts, textos e vocabulá
 * [Musica #01 - Man In The Mirror](/Ingles/Music#01(ManInTheMirror).md)
 * [Noticia #01 - Nepal Protest](/Ingles/News#01(NepalProtest).md)
 * [Podcast #01 - How to Debate](/Ingles/Podcast#01(HowToDebate).md)
+* 
+## 📁 Livros
+
+Resumos de livros
+* [Algoritmos e lógica de programação](/Livros/algoritmoELogicaDeProgramacao.md)
 
 ## 📁 Projetos Práticos
 
