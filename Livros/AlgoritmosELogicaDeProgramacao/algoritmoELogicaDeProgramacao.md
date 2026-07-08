@@ -1,17 +1,3 @@
-# 🧑‍💻 Algoritmos e Lógica de programação
-<p align="justify">
-Marco A. Furlan Souza | Marcelo Marques Gomes | Marcio Vieira Soares | Ricardo Concilio
-</p>
-<p align="justify">
-Resumo do livro
-</p>
-
-![Capa do livro Algoritmos e lógica de programação](https://image.isu.pub/190115193019-5d71928eb29ac18cd931358e05d6929d/jpg/page_1_social_preview.jpg)
-
-## Sumário
-* [Capítulo 01](#capítulo-01)
----
-
 ## Capítulo 01
 ### 1.1 O desenvolvimento de software
 <p align="justify">
@@ -30,4 +16,20 @@ Os dados são organizados em um computador de acordo com sua representação bin
 </p>
 <p align="justify">
 Após as etapas, o software é implantado, podendo ser em minutos ou semanas a depender do projeto, mas, mesmo finalizado o software não é livre de erros. É um fato que parte do investimento é gasta na correção de erros do que na elaboração do programa, surgindo a necessidade de um processo bem definido através da engenharia de software.
+</p>
+
+### 1.2 Algoritmos e lógica de programação
+<p align="justify">
+O estudo de algoritmo e lógica de programação é essencial no contexto de processo de criação de software. Ligada diretamente com a etapa de projeto de um software em que, mesmo sem saber qual será a linguagem, especifica-se o programa a um ponto que na implementação pode ser utilizada qualquer linguagem. Nessa etapa, é possível averiguar se o programa vai atender as especificações propostas.
+</p>
+
+#### 1.2.1 Significado de algoritmo
+<p align="justify">
+Um algoritmo representa um conjunto de regras para a solução de um problema, podendo ser aplicada a qualquer circunstância. É importante notar que a ordem do passo a passo é importante, então o algoritmo especifica com clareza e de forma correta as instruções de um software e que ao ser executado, fornece o resultado esperado.
+</p>
+<p align="justify">
+Em primeiro lugar, deve-se entender o problema a ser resolvido pelo programa, depois, deve-se extrair todas as informações deste problema e relacionar com conhecimento atual, esta fase é chamada de modelagem. A modelagem do problema é resultante de um processo mental de abstração. Depois de entender o problema e como resolver, a próxima tarefa é descrever claramente os passos para chegar á solução. Além disso, é importante que essa descrição possua regras, para que todas as pessoas envolvidas consigam entende-las.
+</p>
+<p align="justify">
+Outro fator importante nesse contexto é entender que um problema pode ser resolvido com vários algoritmos diferentes, mas, alguns são mais eficientes que outros.
 </p>
