@@ -13,6 +13,7 @@ Os dados são organizados em um computador de acordo com sua representação bin
 <li><b>Projeto:</b> criam-se especificações que detalham o resultado da análise em termo mais próximos da implementação do software</li>
 <li><b>Implementação:</b> utilizando-se uma linguagem de programação e as especificações de projeto, o software é construído.</li>
 <li><b>Teste:</b> após a construção do software, são realizados testes para conferir a conformidade com os requisitos.</li>
+</ul>
 </p>
 <p align="justify">
 Após as etapas, o software é implantado, podendo ser em minutos ou semanas a depender do projeto, mas, mesmo finalizado o software não é livre de erros. É um fato que parte do investimento é gasta na correção de erros do que na elaboração do programa, surgindo a necessidade de um processo bem definido através da engenharia de software.

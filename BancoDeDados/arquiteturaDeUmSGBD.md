@@ -43,7 +43,7 @@ Empresa (Banco de Dados)
 Esse processo de concepção de um esquema se chama modelagem de dados, e existem dois estilos mais utilizados para os esquemas de banco de dados:
 <ul>
     <li><strong>Esquema de banco de dados lógico:</strong> Abrange restrições de caráter lógico aplicadas aos dados armazenados. Pode, entre outras definições, cobrir as restrições de integridade, exibição e tabelas.</li>
-        <li><strong>Esquema de banco de dados físico:</strong> Contempla a forma de armazenagem física no sistema de armazenamento, incluindo os arquivos e índices.</li>
+    <li><strong>Esquema de banco de dados físico:</strong> Contempla a forma de armazenagem física no sistema de armazenamento, incluindo os arquivos e índices.</li>
 </ul>
 
 ## Instâncias
@@ -55,4 +55,14 @@ Instâncias são registros em banco de dados, estruturas de memória que formam 
 | Define a estrutura do banco. | Representa os dados armazenados. |
 | Muda raramente. | Muda frequentemente. |
 | Contém tabelas, colunas, tipos de dados, restrições etc. | Contém os registros (linhas) das tabelas. |
+</p>
+
+## Tipos de arquivos
+<p align="justify">
+Para a composição de banco de dados, é necessário que os arquivos sejam gerados no momento da elaboração do banco. Existindo basicamente três tipos de arquivos:
+<ul>
+    <li><strong>Primários:</strong> Contém informações responsáveis pela inicialização do banco de dados. Os dados de usuário e objetos podem estar contidos nesse arquivo. Os primários são de criação de usuário.</li>
+    <li><strong>Secundário:</strong> São arquivos definidos pelo usuário e costumam armazenar seus dados.</li>
+    <li><strong>Log de Transações:</strong> Logs constituem em arquivos que armazenam informações de logs. Utilizadas na restauração de banco de dados.</li>
+</ul>
 </p>
