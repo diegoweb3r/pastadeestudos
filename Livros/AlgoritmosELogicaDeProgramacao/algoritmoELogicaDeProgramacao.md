@@ -34,3 +34,25 @@ Em primeiro lugar, deve-se entender o problema a ser resolvido pelo programa, de
 <p align="justify">
 Outro fator importante nesse contexto é entender que um problema pode ser resolvido com vários algoritmos diferentes, mas, alguns são mais eficientes que outros.
 </p>
+
+### 1.3 A formalização de um algoritmo
+<p align="justify">
+A tarefa de especificar algoritmos para representar um programa consiste em detalhar os dados que serão processados pelo programa e as instruções executadas e para isso, pode-se fazer de forma livre, mas é altamente recomendada que seja feita seguindo alguma convenção, para que quem ler, consiga entender. É necessário definir conjuntos de regras que regulem  escrita, isso é a <b>sintaxe</b>, depois, é estabelecer as regras que permitam interpretar um algoritmo, isso é a <b>semântica</b>
+</p>
+
+#### 1.3.1 Sintaxe de um algoritmo
+<p align="justify">A sintaxe de um algoritmo resume-se nas regras de escrita. Essas regras indicam quais são os tipos de comando que pode ser utilizado para escrever expressões, que realizam algum tipo de operação com os dados envolvidos.
+</p>
+<p align="justify">Os tipos de comandos são denominados estruturas de programação e existem três tipos: estruturas <b>sequenciais</b>, <b>decisão</b> e <b>repetição</b>. 
+</p>
+<p align="justify">As expressões que são escritas em estrutura de programação envolvem dados e existem vários tipos de dados: valores lógicos, números inteiros e etc, que são traduzidos em valores binários. A manipulação desses dados é feira através de variáveis e valores constantes, que representam no texto do algoritmo os dados que serão armazenados na memoria do computador.
+</p>
+
+#### 1.3.3 Semântica de um algoritmo
+<p align="justify">
+A semântica de um algoritmo estabelece regras para a sua interpretação. A semântica sempre acompanha a sua sintaxe, fornecendo significados, e a junção da formalização do algoritmo, com a sintaxe e semântica serve para:
+<ul>
+<li> Evitar ambiguidades: pois definem regras para sempre serem interpretadas da mesma forma
+<li> Impedir criação de símbolos ou comandos desnecessários: representam um conjunto mínimo de regras que pode ser utilizada em qualquer algoritmo.
+<li> Permitir uma aproximação com as regras de uma linguagem de programação fazendo uma fácil tradução de um algoritmo para sua implementação.
+</p>
