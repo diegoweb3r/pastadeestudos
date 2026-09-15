@@ -55,4 +55,54 @@ A semântica de um algoritmo estabelece regras para a sua interpretação. A sem
 <li> Evitar ambiguidades: pois definem regras para sempre serem interpretadas da mesma forma
 <li> Impedir criação de símbolos ou comandos desnecessários: representam um conjunto mínimo de regras que pode ser utilizada em qualquer algoritmo.
 <li> Permitir uma aproximação com as regras de uma linguagem de programação fazendo uma fácil tradução de um algoritmo para sua implementação.
+</ul>
+</p>
+
+### 1.4 Como resolver problemas
+<p align="justify">
+A criação de um algoritmo é uma tarefa intelectual. A partir do enunciado de um problema, deseja-se obter um algoritmo que o resolva. Pode-se afirmar que a tarefa de escrever um algoritmo seja resolver um problema.
+</p>
+
+#### 1.4.1 A análise de a síntese de um problema
+<p align="justify">
+A resolução de um problema envolve duas grandes fases: a análise e a síntese da solução.
+</p>
+<p align="justify">
+Na fase de análise, o problema é entendido de forma que se descubra o que deve ser solucionado, quais são os dados necessários e as condições para resolve-lo. Depois, parte-se para sua modelagem e como resultado dessa fase tem-se a elaboração de um plano de ação, no qual a experiência em problemas similares vistos anteriormente é utilizada, fazendo abstrações e mapas mentais do problema.
+</p>
+<p align="justify">
+Na etapa de síntese, executa-se o plano definido na fase de análise, representando os passos por meio de um algoritmo escrito em uma representação formal. 
+</p>
+
+
+#### 1.4.2 Modelagem de problemas
+<p align="justify">
+A modelagem é a principal responsável pela facilidade ou dificuldade da resolução de um problema. Na matemática e na engenharia o uso da linguagem matemática é fundamental, principalmente pela eliminação de duplo sentido.
+</p>
+<p align="justify">
+Ocorre também na computação, com o emprego de linguagens de descrição de algoritmos e de linguagens de programação.
+</p>
+
+#### 1.4.3 O papel da lógica de programação
+<p align="justify">
+Lógica é uma área da matemática cujo objetivo é investigar a veracidade de suas proposições, exemplo:
+<ol>
+<li> Se estiver chovendo, eu pegarei meu guarda chuva.
+<li> Esta chovendo
+</ol>
+
+</p>
+<p align="justify">
+Conclui-se que eu pegarei o guarda chuva, pois segue-se o fato que existe uma implicação lógica na primeira proposição, a qual afirma que "se estiver chovendo" implica em "eu pegarei o meu guarda chuva". Essa implicação age como uma rega que conduz a dedução do fato. Mas e se a proposição fosse:
+<ol>
+<li>Se estiver chovendo, eu pegarei meu guarda 
+<li>Eu pegarei meu guarda chuva
+</ol>
+O que se conclui? Provável que esteja chovendo. 
+</p>
+<p align="justify">
+Exemplos que fornecem uma ideia, embora simplificada, do que a lógica se preocupa em estudar. Toda lógica proposta também deve ser formalizada em elemento sintáticos e elementos semânticos.
+</p>
+<p align="justify">
+O papel da lógica em programação de computadores está relacionado com a correta sequência de instruções que devem ser definidas para que o programa atinja seu  objetivo. Serve como verificação do programa escrito. Um algoritmo correto é aquele que, a partir de um estado inicial, suas variáveis, consegue, com a execução de suas instruções, chegar a um estado final, no qual valores das variáveis estão de acordo com a solução esperada.
 </p>
