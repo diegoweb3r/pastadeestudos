@@ -106,3 +106,14 @@ Exemplos que fornecem uma ideia, embora simplificada, do que a lógica se preocu
 <p align="justify">
 O papel da lógica em programação de computadores está relacionado com a correta sequência de instruções que devem ser definidas para que o programa atinja seu  objetivo. Serve como verificação do programa escrito. Um algoritmo correto é aquele que, a partir de um estado inicial, suas variáveis, consegue, com a execução de suas instruções, chegar a um estado final, no qual valores das variáveis estão de acordo com a solução esperada.
 </p>
+
+### 1.5 Como se portar em um curso de computação
+<p align="justify">
+Uma das maiores dificuldades é de abstrair e descrever as soluções de problemas contado apenas com poucas e simples estruturas. Em carreiras de computação, as tarefas intelectuais são sempre envolvidas para a solução de problemas, que podem inclusive, gerar novos problemas, então, entende-se que é um erro decorar soluções, mas sim, entender a solução para adaptar a novos problemas. Não existe uma formula mágica, mas consegue aproveitar a experiencia em novos problemas, mas tem-se um conjunto de dicas que podem ajudar:
+<ul>
+<li>Tente entende-lo: O que se deve descobrir ou calcular? Quais são os dados disponíveis? Quais condições necessárias e suficientes para resolver?</li>
+<li>Crie um plano pra solução: Consulte se ja resolveu um problema parecido e tente aproveitar pro analogia. Tente quebrar em problemas menores, ou enxergar em outras perspectivas.</li>
+<li>Formalize a solução</li>
+<li>Exame dos resultados</li>
+<li>Otimize a solução</li>
+</p>
