@@ -42,5 +42,29 @@ A quarta geração é marcada pelos microprocessadores: um dispositivo encapsula
 ### 2.3 A representação da informação em um computador  
 #### 2.3.1 A eletrônica do computador
 <p align="justify">
-
+Os circuitos eletrônicos de um computador moderno operam com sinais binários. Funcionam assim pelo baixo custo de implementação. 
 </p>
+
+#### 2.3.2 Conceito de bits e seus múltiplos
+<p align="justify">
+A palavra bit ou binary digit, representa de forma lógica um estado de ligado ou desligado. Convenciona-se que um bit ligado é representado por 1 e o desligado é o 0. <br>
+Embora a unidade fundamental de informação do computador seja o bit, na prática utilizamos seus múltiplos, como o byte. Um byte representa o mesmo que oito bits, e para programação é o menor dado que se pode manipular. Os múltiplos de byte tbm são usados para representar as quantidades manipuladas: KB, MB e GB. <br>
+Os tipos de informação manipulados pelo computador durante a execução de um programa são os dados e as instruções que operam esses dados.Na memória são sempre representados por bit. Entre os tipo de dados mais conhecidos estão os caracteres, cadeia de caracteres, imagens, sons e números.
+</p>
+
+#### 2.3.3 Caracteres e cadeias de caracteres
+<p align="justify">
+Os caracteres são símbolos digitados pelo usuário durante a execução de seu programa que ainda podem ser constantes presentes no texto. Envolvem letras, números decimais, símbolos especiais de operação e símbolos de controle. <br>
+Na programação, para diferencias um texto de uma variável, o texto deve estar entre "". E é importante diferencias que: 1 e "1" são diferentes.
+</p>
+
+#### 2.3.4 Imagens
+<p align="justify">
+As imagens no computador são versões digitalizadas de imagens reais ou sintetizadas por algum software gráfico. As imagens no computador são formada por pixels, que são a menor parte de uma imagem. Cada pixel é representada por três números binários com oito bits cada, e cada um desses bytes representam uma intensidade de vermelho, azul e verde.
+</p>
+
+#### 2.3.4 Sons
+<p align="justify">
+Da mesma forma que as imagens, sons são informações analógicas contínuas e isso torna difícil o armazenamento nos computadores. O sinal de som é capturador via mecanismos de entrada conectado a placa de som, esse sinal é amostrado, opu seja, coletado amostras. Na sequencia, cada amplitude amostrada é atribuído um valor binário correspondente.
+</p>
+
