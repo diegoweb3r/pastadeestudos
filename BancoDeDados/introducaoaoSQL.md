@@ -1,5 +1,4 @@
 # 🧑‍💻 Introdução ao SQL
----
 
 ## O que é SQL?
 <p align="justify">
@@ -25,3 +24,4 @@ FROM mytable;
 
 </p>
 
+sql bolt sql lesson 2
