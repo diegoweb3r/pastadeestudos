@@ -68,3 +68,20 @@ As imagens no computador são versões digitalizadas de imagens reais ou sinteti
 Da mesma forma que as imagens, sons são informações analógicas contínuas e isso torna difícil o armazenamento nos computadores. O sinal de som é capturador via mecanismos de entrada conectado a placa de som, esse sinal é amostrado, opu seja, coletado amostras. Na sequencia, cada amplitude amostrada é atribuído um valor binário correspondente.
 </p>
 
+### 2.4 A arquitetura de um computador
+<p align="justify">
+A arquitetura de um computador representa a maneira na qual seus componentes são organizados. A arquitetura Von Neumann surgiu em virtude de seu criador, que em 1946, definiu as unidades funcionais básicas para o projeto do computador IAS. As unidades funcionais são
+<ul>
+<li>UCP(Unidade Central de Processamento) ou CPU (Central processing unit): representada atualmente por um microprocessador e sua função é executar programas armazenados na memória principal. A memoria principal, ou, RAM, representa a memória volátil utilizada para armazenar instruções e dados de um programa.
+<li>Caminho (bus): representa uma fiação e seu propósito é transmitir dados, que podem ser endereços de áreas de memória, dados de um programa armazenados na memória e sinais de controle.
+<li>Dispositivos de entrada e saída: representa interfaces para o dispositivo de entrada e saída, como mouses e teclados.
+</p>
+
+### 2.5 Funcionamento da CPU na execução dos programas
+<p align="justify">
+A CPU é responsável pera execução dos programas e pelo controle dos outros componentes, como os periféricos de entrada e saída. A CPU é internamente composta pelas seguintes unidades funcionais:
+<li>Unidade de controle (UC): responsável pela busca de instruções na memória principal
+<li>Unidade lógico-aritmética (ULA): responsável pela execução das operações aritméticas e pela execução das instruções provindas da memória principal.
+<li>Conjunto de registradores: representa uma pequena memória que serve para armazenar resultados temporários e algumas informações de controle. Os registradores possuem normalmente um tamanho fixo em bits e por estarem situados internamente á CPU, são muitos mais rápidos que a memória principal.
+A organização interna da CPU é representada principalmente pelo seu caminho de dados. Esse caminho indica o fluxo de dados que ocorre internamente na CPU.
+</p>
