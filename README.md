@@ -40,7 +40,7 @@ Além de auxiliar na revisão de conteúdos, o projeto também funciona como um 
 Conteúdos, exercícios, algoritmos, fluxogramas, estruturas de controle e anotações voltados ao desenvolvimento do raciocínio lógico e à resolução de problemas computacionais.
 
 * [Conceitos](/LogicaDeProgramacao/logicaDeProgramacao.md)
-* [Exercicios práticos em JavaScript](https://github.com/diegoweb3r/ExerciciosJS)
+* [Exercícios práticos em JavaScript](https://github.com/diegoweb3r/ExerciciosJS)
 
 ## 📁 HTML
 
@@ -66,7 +66,7 @@ Materiais sobre modelagem de dados, SQL, normalização, consultas, manipulaçã
 
 Conteúdos relacionados à estatística, preparação, transformação, visualização e interpretação de dados para apoio à tomada de decisões.
 
-* [Estatistica aplicada a Análise de dados](/AnaliseDeDados/estatisticaAplicadaAAnaliseDeDados.md)
+* [Estatística aplicada a Análise de dados](/AnaliseDeDados/estatisticaAplicadaAAnaliseDeDados.md)
 * [Preparação de dados](/AnaliseDeDados/preparaçãoDeDados.md)
 * [Engenharia e Preparação e visualização de dados](/AnaliseDeDados/engenhariaPreparaçãoEVisualizacaoDeDados.md)
   
@@ -81,7 +81,7 @@ Materiais sobre fundamentos de Inteligência Artificial, engenharia de prompts, 
 
 Conteúdos sobre metodologias de desenvolvimento, requisitos, arquitetura, modelagem, testes, documentação e boas práticas de Engenharia de Software.
 
-* [Modelos, metodos e tecnicas de engenharia de Software](/EngenhariaDeSoftware/modelosMetodoseTecnicasDeEngenharia.md)
+* [Modelos, métodos e tecnicas de engenharia de Software](/EngenhariaDeSoftware/modelosMetodoseTecnicasDeEngenharia.md)
 * [Diagrama de Classes](/EngenhariaDeSoftware/diagramaDeClasses.md)
 * [Modelos de casos de uso](/EngenhariaDeSoftware/modeloDeCasodeUso.md)
 * [Requisitos](/EngenhariaDeSoftware/requisitos.md)

@@ -85,3 +85,11 @@ A CPU é responsável pera execução dos programas e pelo controle dos outros c
 <li>Conjunto de registradores: representa uma pequena memória que serve para armazenar resultados temporários e algumas informações de controle. Os registradores possuem normalmente um tamanho fixo em bits e por estarem situados internamente á CPU, são muitos mais rápidos que a memória principal.
 A organização interna da CPU é representada principalmente pelo seu caminho de dados. Esse caminho indica o fluxo de dados que ocorre internamente na CPU.
 </p>
+
+### 2.6 Projeto lógico na construção de programas
+<p align="justify">
+Um programa é, para o computador, um conjunto de instruções de máquina armazenada em memória. Muitas dessas instruções são construídas em linguagem de alto nível, mais parecidas com a dos seres humanos.<br>
+O processo de construção de um programa é iniciado pela ideias que se tem a respeito do problema a ser resolvido. Depois é feita um planejamento e o projeto lógico. Após, deve-se traduzir o projeto lógico a uma linguagem de programação escolhida. Escrito o programa, ele é submetido ao compilador, que traduz a linguagem para as lidas pelas máquinas.<br>
+O projeto lógico representa o programa em seu nível mais alto, os algoritmos que serão implementados são representados por gráfico, fluxogramas e independem de linguagem de programação.
+
+</p>
